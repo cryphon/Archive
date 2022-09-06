@@ -28,6 +28,6 @@ public class Assignment3 {
         }
 
         for(Student student : students)
-            System.out.printf("Student #%s: %s\t| Present: %s\n", students.indexOf(student), student.name, student.presence);
+            System.out.printf("Student #%s: %s \t| Present: %s \n", students.indexOf(student) + 1, student.name, student.presence);
     }
 }
