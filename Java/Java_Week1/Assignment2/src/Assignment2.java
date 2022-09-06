@@ -31,6 +31,6 @@ public class Assignment2 {
         System.out.println("Student " + studentNames[index] + " has a maximum grade: " + Arrays.stream(studentGrades).max().getAsInt());
 
         for(int z = 0; z < numStudents; z++)
-            System.out.println("Grade for student " + studentNames[z] + " (course + " + course + "): " + studentGrades[z]);
+            System.out.println("Grade for student " + studentNames[z] + " (course " + course + "): " + studentGrades[z]);
     }
 }
